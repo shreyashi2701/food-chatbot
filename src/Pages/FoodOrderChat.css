@@ -1,0 +1,92 @@
+.food{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url(foodbg.jpg);
+  background-size: 100%;
+}
+
+.square {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.circle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.text {
+  margin: auto;
+}
+.chat-container {
+  display:inline-block;
+  margin-top: 6%;
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+  overflow-y: auto;
+  margin-left: 40%;
+  padding: 5px;
+  border-radius: 2rem;
+  background-image: url(https://img.freepik.com/premium-vector/social-networks-dating-apps-vector-seamless-pattern_341076-469.jpg);
+}
+  .message {
+    margin: 5px 0;
+    padding: 2px;
+    border-radius: 5px;
+  }
+  
+  .user {
+    background-color: #c1e1d2;
+  }
+  
+  .bot {
+    background-color: #c8b9dd;
+    color: #121212;
+  }
+  
+  .input-container {
+    /* display: inline; */
+    margin-left: 40%;
+    align-items: center;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .input-container>button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4rem;
+    cursor: pointer;
+  }
+  
+  .input-container>button:hover {
+    background-color: #0056b3;
+  }
+
+  input {
+    border: 1px solid black;
+    padding: 3px;
+  }
+  
+  input:placeholder-shown {
+    border-color: teal;
+    color: purple;
+    font-style: italic;
+    border-radius: 1rem;
+  }

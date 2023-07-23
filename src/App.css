@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.pic {
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+
+.bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container{
+  position: absolute;
+  top: 10%;
+  margin-right: 30%;
+}
+
+.container>h1{
+  font-size: 6rem;
+}
+
+.container>b{
+  font-family:'Courier New', Courier, monospace
+}
+
+.popup{
+  top: 0px;
+}
+
+button{
+  padding: 10px 25px;
+  border: 2px #e5eaef solid;
+  background-color: transparent;
+  color: white;
+}
+
+button:hover{
+  background-color: rgb(55, 11, 11);
+}
